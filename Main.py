@@ -106,7 +106,7 @@ def save_cache(data):
         json.dump(data,f)
 
 # --- Streamlit UI ---
-st.set_page_config(page_title="Zenless Zone Zero Codes", layout="centered")
+st.set_page_config(page_title="Zenless Collector -  Redeem Codes", layout="centered")
 st.title("Zenless Collector")
 st.write("Fetch Active Redeem Codes For Polychrome!")
 
